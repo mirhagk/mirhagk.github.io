@@ -18,6 +18,7 @@
             <div class="pure-menu pure-menu-open">
                 <a class="pure-menu-heading" href="/">Nathan</a>
                 <ul>
+			{{NavPage Home}}
                     @Helper.NavPage("Home")
                     @Helper.NavPage("Projects")
                     @Helper.NavPage("Experience")

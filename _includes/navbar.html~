@@ -1,0 +1,14 @@
+	{{NavPage Home}}
+                    @Helper.NavPage("Home")
+                    @Helper.NavPage("Projects")
+                    @Helper.NavPage("Experience")
+                    @Helper.NavPage("Education")
+                    @Helper.NavPage("About")
+<li {{ if page.title =="home" }}class="active"{{endif}}><a href="/Home">Home</a></li>
+<li><a href="/Home">Projects</a></li>
+<li><a href="/Home">Experience</a></li>
+<li><a href="/Home">Education</a></li>
+<li><a href="/Home">About</a></li>
+
+                    <li><a href="mailto://nathan@nathanjervis.com?subject=Contact%20Me">Contact</a></li>
+                    <li class="menu-item-divided"><a href="/blog">Blog</a></li>

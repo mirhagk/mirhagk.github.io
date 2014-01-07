@@ -18,14 +18,7 @@
             <div class="pure-menu pure-menu-open">
                 <a class="pure-menu-heading" href="/">Nathan</a>
                 <ul>
-			{{NavPage Home}}
-                    @Helper.NavPage("Home")
-                    @Helper.NavPage("Projects")
-                    @Helper.NavPage("Experience")
-                    @Helper.NavPage("Education")
-                    @Helper.NavPage("About")
-                    <li><a href="mailto://nathan@nathanjervis.com?subject=Contact%20Me">Contact</a></li>
-                    <li class="menu-item-divided"><a href="/blog">Blog</a></li>
+			{% include navbar.html %}
                 </ul>
             </div>
         </div>
